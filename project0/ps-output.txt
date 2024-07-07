@@ -1,0 +1,205 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Jul06 ?        00:00:01 /sbin/init splash
+root           2       0  0 Jul06 ?        00:00:00 [kthreadd]
+root           3       2  0 Jul06 ?        00:00:00 [rcu_gp]
+root           4       2  0 Jul06 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 Jul06 ?        00:00:00 [slub_flushwq]
+root           6       2  0 Jul06 ?        00:00:00 [netns]
+root           8       2  0 Jul06 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 Jul06 ?        00:00:00 [kworker/0:1-events]
+root          11       2  0 Jul06 ?        00:00:00 [mm_percpu_wq]
+root          12       2  0 Jul06 ?        00:00:00 [rcu_tasks_kthread]
+root          13       2  0 Jul06 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          14       2  0 Jul06 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          15       2  0 Jul06 ?        00:00:00 [ksoftirqd/0]
+root          16       2  0 Jul06 ?        00:00:00 [rcu_preempt]
+root          17       2  0 Jul06 ?        00:00:00 [migration/0]
+root          18       2  0 Jul06 ?        00:00:00 [idle_inject/0]
+root          19       2  0 Jul06 ?        00:00:00 [cpuhp/0]
+root          20       2  0 Jul06 ?        00:00:00 [cpuhp/1]
+root          21       2  0 Jul06 ?        00:00:00 [idle_inject/1]
+root          22       2  0 Jul06 ?        00:00:00 [migration/1]
+root          23       2  0 Jul06 ?        00:00:00 [ksoftirqd/1]
+root          25       2  0 Jul06 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          26       2  0 Jul06 ?        00:00:00 [cpuhp/2]
+root          27       2  0 Jul06 ?        00:00:00 [idle_inject/2]
+root          28       2  0 Jul06 ?        00:00:00 [migration/2]
+root          29       2  0 Jul06 ?        00:00:00 [ksoftirqd/2]
+root          31       2  0 Jul06 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          32       2  0 Jul06 ?        00:00:00 [cpuhp/3]
+root          33       2  0 Jul06 ?        00:00:00 [idle_inject/3]
+root          34       2  0 Jul06 ?        00:00:00 [migration/3]
+root          35       2  0 Jul06 ?        00:00:00 [ksoftirqd/3]
+root          38       2  0 Jul06 ?        00:00:00 [kdevtmpfs]
+root          39       2  0 Jul06 ?        00:00:00 [inet_frag_wq]
+root          41       2  0 Jul06 ?        00:00:00 [kauditd]
+root          42       2  0 Jul06 ?        00:00:00 [khungtaskd]
+root          43       2  0 Jul06 ?        00:00:00 [oom_reaper]
+root          45       2  0 Jul06 ?        00:00:00 [writeback]
+root          46       2  0 Jul06 ?        00:00:00 [kcompactd0]
+root          47       2  0 Jul06 ?        00:00:00 [ksmd]
+root          48       2  0 Jul06 ?        00:00:00 [khugepaged]
+root          49       2  0 Jul06 ?        00:00:00 [kintegrityd]
+root          50       2  0 Jul06 ?        00:00:00 [kblockd]
+root          51       2  0 Jul06 ?        00:00:00 [blkcg_punt_bio]
+root          54       2  0 Jul06 ?        00:00:00 [tpm_dev_wq]
+root          55       2  0 Jul06 ?        00:00:00 [ata_sff]
+root          56       2  0 Jul06 ?        00:00:00 [md]
+root          57       2  0 Jul06 ?        00:00:00 [md_bitmap]
+root          58       2  0 Jul06 ?        00:00:00 [edac-poller]
+root          59       2  0 Jul06 ?        00:00:00 [devfreq_wq]
+root          60       2  0 Jul06 ?        00:00:00 [watchdogd]
+root          61       2  0 Jul06 ?        00:00:01 [kworker/1:1-events]
+root          62       2  0 Jul06 ?        00:00:00 [kworker/0:1H-kblockd]
+root          63       2  0 Jul06 ?        00:00:00 [kswapd0]
+root          64       2  0 Jul06 ?        00:00:00 [ecryptfs-kthread]
+root          65       2  0 Jul06 ?        00:00:00 [kthrotld]
+root          66       2  0 Jul06 ?        00:00:00 [acpi_thermal_pm]
+root          67       2  0 Jul06 ?        00:00:00 [scsi_eh_0]
+root          68       2  0 Jul06 ?        00:00:00 [scsi_tmf_0]
+root          69       2  0 Jul06 ?        00:00:00 [scsi_eh_1]
+root          70       2  0 Jul06 ?        00:00:00 [scsi_tmf_1]
+root          74       2  0 Jul06 ?        00:00:00 [mld]
+root          75       2  0 Jul06 ?        00:00:00 [ipv6_addrconf]
+root          76       2  0 Jul06 ?        00:00:00 [kworker/3:1H-kblockd]
+root          84       2  0 Jul06 ?        00:00:00 [kstrp]
+root          86       2  0 Jul06 ?        00:00:00 [kworker/u9:0]
+root          90       2  0 Jul06 ?        00:00:00 [charger_manager]
+root         110       2  0 Jul06 ?        00:00:00 [kworker/1:1H-kblockd]
+root         113       2  0 Jul06 ?        00:00:00 [kworker/2:1H-kblockd]
+root         131       2  0 Jul06 ?        00:00:00 [scsi_eh_2]
+root         134       2  0 Jul06 ?        00:00:00 [scsi_tmf_2]
+root         169       2  0 Jul06 ?        00:00:00 [jbd2/sda3-8]
+root         170       2  0 Jul06 ?        00:00:00 [ext4-rsv-conver]
+root         209       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-journald
+root         235       2  0 Jul06 ?        00:00:00 [kworker/3:3-mm_percpu_wq]
+root         242       2  0 Jul06 ?        00:00:00 [irq/18-vmwgfx]
+root         243       2  0 Jul06 ?        00:00:00 [ttm]
+root         251       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-udevd
+root         280       2  0 Jul06 ?        00:00:00 [cryptd]
+root         478       2  0 Jul06 ?        00:00:00 [kworker/3:2H-kblockd]
+systemd+     535       1  0 Jul06 ?        00:00:05 /lib/systemd/systemd-oomd
+systemd+     540       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     541       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         585       1  0 Jul06 ?        00:00:00 /usr/libexec/accounts-daemon
+root         586       1  0 Jul06 ?        00:00:00 /usr/sbin/acpid
+avahi        589       1  0 Jul06 ?        00:00:00 avahi-daemon: running [CyberUbuntu.local]
+root         590       1  0 Jul06 ?        00:00:00 /usr/sbin/cron -f -P
+message+     591       1  0 Jul06 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         592       1  0 Jul06 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         598       1  0 Jul06 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         611       1  0 Jul06 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         612       1  0 Jul06 ?        00:00:01 /usr/libexec/polkitd --no-debug
+root         613       1  0 Jul06 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog       614       1  0 Jul06 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         616       1  0 Jul06 ?        00:00:01 /usr/lib/snapd/snapd
+root         617       1  0 Jul06 ?        00:00:00 /usr/libexec/switcheroo-control
+root         618       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-logind
+root         619       1  0 Jul06 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         620       1  0 Jul06 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        624     589  0 Jul06 ?        00:00:00 avahi-daemon: chroot helper
+root         682       1  0 Jul06 ?        00:00:00 /usr/sbin/ModemManager
+root         688       1  0 Jul06 ?        00:00:00 /usr/sbin/cupsd -l
+root         691       1  0 Jul06 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         710       1  0 Jul06 ?        00:00:00 /usr/sbin/gdm3
+kernoops     745       1  0 Jul06 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     747       1  0 Jul06 ?        00:00:00 /usr/sbin/kerneloops
+lp           750     688  0 Jul06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+lp           751     688  0 Jul06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+lp           752     688  0 Jul06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+lp           753     688  0 Jul06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root         754       1  0 Jul06 ?        00:00:00 /usr/sbin/cups-browsed
+rtkit        879       1  0 Jul06 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1021       1  0 Jul06 ?        00:00:00 /usr/libexec/upowerd
+root        1027       1  0 Jul06 ?        00:00:00 /usr/libexec/packagekitd
+colord      1197       1  0 Jul06 ?        00:00:00 /usr/libexec/colord
+root        1271     710  0 Jul06 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+ryanami+    1293       1  0 Jul06 ?        00:00:01 /lib/systemd/systemd --user
+ryanami+    1294    1293  0 Jul06 ?        00:00:00 (sd-pam)
+ryanami+    1300    1293  0 Jul06 ?        00:00:00 /usr/bin/pipewire
+ryanami+    1301    1293  0 Jul06 ?        00:00:00 /usr/bin/pipewire-media-session
+ryanami+    1302    1293  0 Jul06 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ryanami+    1303    1293  0 Jul06 ?        00:00:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ryanami+    1317    1293  0 Jul06 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ryanami+    1321    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfsd
+ryanami+    1332    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ryanami+    1341    1293  0 Jul06 ?        00:00:00 /usr/libexec/xdg-document-portal
+ryanami+    1345    1293  0 Jul06 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        1351    1341  0 Jul06 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+ryanami+    1363       1  0 Jul06 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ryanami+    1369    1271  0 Jul06 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ryanami+    1372    1369  0 Jul06 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ryanami+    1402    1293  0 Jul06 ?        00:00:00 /usr/libexec/tracker-miner-fs-3
+ryanami+    1421    1293  0 Jul06 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+ryanami+    1436    1293  0 Jul06 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ryanami+    1458    1436  0 Jul06 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ryanami+    1467    1458  0 Jul06 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ryanami+    1469    1293  0 Jul06 ?        00:00:29 /usr/bin/gnome-shell
+ryanami+    1526    1293  0 Jul06 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ryanami+    1528    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ryanami+    1533    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+ryanami+    1538    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ryanami+    1542    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ryanami+    1546    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ryanami+    1550    1293  0 Jul06 ?        00:00:00 /usr/libexec/goa-daemon
+ryanami+    1557    1293  0 Jul06 ?        00:00:00 /usr/libexec/goa-identity-service
+ryanami+    1568    1293  0 Jul06 ?        00:00:00 /usr/libexec/evolution-source-registry
+ryanami+    1575    1321  0 Jul06 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ryanami+    1583    1293  0 Jul06 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ryanami+    1585    1293  0 Jul06 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ryanami+    1596    1293  0 Jul06 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ryanami+    1597    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ryanami+    1599    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-color
+ryanami+    1600    1596  0 Jul06 ?        00:00:00 /usr/bin/ibus-daemon --panel disable
+ryanami+    1602    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-datetime
+ryanami+    1603    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-housekeeping
+ryanami+    1604    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-keyboard
+ryanami+    1605    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-media-keys
+ryanami+    1609    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-power
+ryanami+    1610    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ryanami+    1612    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-rfkill
+ryanami+    1626    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ryanami+    1628    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-sharing
+ryanami+    1629    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-smartcard
+ryanami+    1639    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-sound
+ryanami+    1644    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-wacom
+ryanami+    1671    1600  0 Jul06 ?        00:00:00 /usr/libexec/ibus-dconf
+ryanami+    1672    1600  0 Jul06 ?        00:00:00 /usr/libexec/ibus-extension-gtk3
+ryanami+    1677    1436  0 Jul06 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ryanami+    1679    1436  0 Jul06 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+ryanami+    1696    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-printer
+ryanami+    1707    1293  0 Jul06 ?        00:00:00 /usr/libexec/ibus-portal
+ryanami+    1745    1600  0 Jul06 ?        00:00:00 /usr/libexec/ibus-engine-simple
+ryanami+    1776    1293  0 Jul06 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ryanami+    1782    1293  0 Jul06 ?        00:00:02 /usr/libexec/gnome-initial-setup --existing-user
+ryanami+    1790    1293  0 Jul06 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ryanami+    1827    1293  0 Jul06 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+ryanami+    1839    1293  0 Jul06 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+ryanami+    1849    1303  0 Jul06 ?        00:00:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ryanami+    1864    1293  0 Jul06 ?        00:00:00 /usr/libexec/dconf-service
+ryanami+    1865    1293  0 Jul06 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ryanami+    1917    1293  0 Jul06 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+root        1919       1  0 Jul06 ?        00:00:00 /usr/libexec/ubuntu-advantage-desktop-daemon
+ryanami+    1969    1293  0 Jul06 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ryanami+    2001    1293  0 Jul06 ?        00:00:01 /usr/libexec/gnome-terminal-server
+ryanami+    2019    2001  0 Jul06 pts/0    00:00:00 bash
+root        2046       2  0 Jul06 ?        00:00:00 [kworker/2:3-events]
+ryanami+    2321    1469  0 Jul06 ?        00:00:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LBPNQ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ryanami+    2325    1293  0 Jul06 ?        00:00:00 /usr/libexec/gsd-xsettings
+ryanami+    2352    1293  0 Jul06 ?        00:00:00 /usr/libexec/ibus-x11
+ryanami+    2539    1436  0 Jul06 ?        00:00:00 update-notifier
+ryanami+    2939    1293  0 Jul06 ?        00:00:02 /usr/bin/nautilus --gapplication-service
+root        3074       2  0 Jul06 ?        00:00:00 [kworker/u8:2-events_unbound]
+root        3148       2  0 Jul06 ?        00:00:00 [kworker/2:0-cgwb_release]
+root        3360       2  0 Jul06 ?        00:00:00 [tls-strp]
+root        3799       2  0 00:16 ?        00:00:00 [kworker/3:1]
+root        3808       2  0 00:39 ?        00:00:00 [kworker/u8:1-events_power_efficient]
+root        3814       2  0 00:58 ?        00:00:00 [kworker/u8:0-events_power_efficient]
+root        3822       2  0 01:04 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+ryanami+    3844    1469  0 01:04 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1280:800:1:27:0:0:0:0
+root        3888       2  0 01:05 ?        00:00:00 [kworker/0:2-rcu_gp]
+ryanami+    3905    1293  0 01:05 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+ryanami+    3909    1293  0 01:05 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+root        4327       1  0 01:16 ?        00:00:00 /usr/sbin/anacron -d -q -s
+root        4383       2  0 01:16 ?        00:00:00 [kworker/0:0-events]
+ryanami+    4642    2019  0 01:17 pts/0    00:00:00 ps -ef
