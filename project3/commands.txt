@@ -1,0 +1,13 @@
+hashcat -m 500 --username -O -a 6 "D:\dev\Coding\School\CY 2550\cy2550\project3\amiri.ry@northeastern.edu.shadow" "D:\dev\Coding\School\CY 2550\cy2550\project3\words.txt" '?d?d?d'
+
+hashcat -m 500 --username -O -a 0 -w 4 --session=basic_wordlist "D:\dev\Coding\School\CY 2550\cy2550\project3\amiri.ry@northeastern.edu.shadow" "D:\dev\Coding\School\CY 2550\cy2550\project3\words.txt" --outfile-format=2 --outfile="D:\dev\Coding\School\CY 2550\cy2550\project3\cracked.txt"
+
+hashcat -m 500 --username -O -a 3 -w 4 --session=mask_attack "D:\dev\Coding\School\CY 2550\cy2550\project3\amiri.ry@northeastern.edu.shadow" "?d?d?d?d?d?d?d?d" --outfile-format=2 --outfile="D:\dev\Coding\School\CY 2550\cy2550\project3\cracked.txt"
+
+hashcat -m 500 --username -O -a 6 -w 4 --session=hybrid_attack "D:\dev\Coding\School\CY 2550\cy2550\project3\amiri.ry@northeastern.edu.shadow" "D:\dev\Coding\School\CY 2550\cy2550\project3\words.txt" "?d?d?d" --outfile-format=2 --outfile="D:\dev\Coding\School\CY 2550\cy2550\project3\cracked.txt"
+
+hashcat -m 500 --username -O -a 3 -w 4 --session=incremental_brute_force "D:\dev\Coding\School\CY 2550\cy2550\project3\amiri.ry@northeastern.edu.shadow" -i --increment-max=8 "?a?a?a?a?a?a?a?a" --outfile-format=2 --outfile="D:\dev\Coding\School\CY 2550\cy2550\project3\cracked.txt"
+
+hashcat --username -m 500 -O -a 3 -w 4 -1'?u?l' "D:\dev\Coding\School\CY 2550\cy2550\project3\amiri.ry@northeastern.edu.shadow" '?l?l?l?l?l?l' --outfile-format=2 --outfile="D:\dev\Coding\School\CY 2550\cy2550\project3\cracked.txt"
+
+hashcat -m 500 --username -O -a 3 -w 4 --force --session=short_mask_mixed "D:\dev\Coding\School\CY 2550\cy2550\project3\amiri.ry@northeastern.edu.shadow" "?1?1?1?1?1?1?1?1" -1 "?u?l?d" --increment --increment-min=6 --increment-max=8 --outfile-format=2 --outfile="D:\dev\Coding\School\CY 2550\cy2550\project3\cracked.txt"
